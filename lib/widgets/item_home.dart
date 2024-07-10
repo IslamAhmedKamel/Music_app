@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/models/item_home.dart';
 
+// ignore: must_be_immutable
 class ItemTune extends StatelessWidget {
-    ItemTune({required this.item});
+    ItemTune({super.key, required this.item});
    
   ItemModel item;
   @override
